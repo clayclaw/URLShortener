@@ -14,6 +14,7 @@ func main() {
 	services.RegisterURL("boss", "https://www.jboss.org/")
 	services.RegisterURL("google", "https://www.google.com/")
 	services.RegisterURL("duckduckgo", "https://duckduckgo.com/")
+	services.RegisterURL("illegalsite", "https://imillegalxxxxxx.net/")
 
 	services.RegisterBanURL("illegalsite")
 
